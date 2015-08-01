@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Video remote",
+    "description": "Video remote"
+  },
+  "appDesc": {
+    "message": "Ferngesteuerte Wiedergabe von Video, Verwenden Sie Ihre Handy als Fernbedienung!", 
+    "description":"Ferngesteuerte Wiedergabe von Video, Verwenden Sie Ihre Handy als Fernbedienung!"
+  }
+}
