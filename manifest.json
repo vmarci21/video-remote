@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+"name": "Video remote",
+"description": "Remotely controlled playing of video, Use your cell phone as a remote control!",
+"default_locale": "en",
+  "version": "3.2.3",
+ "icons": { "128": "icon.png" },
+  "applications": {
+  "gecko": {
+    "id": "vmtech@into.hu",
+    "strict_min_version": "42.0.0",
+    "strict_max_version": "50.*"
+  }
+},
+"content_scripts": [
+    {
+      "matches": ["http://*/","http://*/*","http://*/*/","https://www.youtube.com/*","https://vimeo.com/*"],
+      "all_frames": true,
+      "js": ["background2.js"]
+    }
+  ],
+"web_accessible_resources": [
+"background.js",
+"icon.png",
+"options.html"
+],
+"permissions": [
+"storage"
+  ],
+"options_page": "options.html"
+}
+
+
