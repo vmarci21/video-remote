@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head><title>Video remote</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<style>
+body {
+background: #CDCDCD;
+font-size: 14px;
+font-family: Arial, sans-serif;
+}
+#fejlec {
+height: 100px;
+}
+.icon {
+float: left;
+width: 72px;
+margin-top: -24px;
+}
+.cim {
+font-size: 22px;
+margin-top: 30px;
+margin-left: 84px;
+color: #4f5d73;
+}
+.page {
+width: 400px;
+background: #fff;
+margin: 0 auto;
+padding: 6px;
+box-shadow: 1px 1px 1px 1px rgba(81, 80, 80, 0.14);
+border: 1px solid #9D9D9D;
+border-radius: 3px;
+}
+.help {
+display: inline-block;
+padding: 2px;
+width: 14px;
+font-size: 12px;
+text-align: center;
+border: 2px solid #848484;
+border-radius: 100%;
+}
+.help #leiras {
+display: none;
+position: absolute;
+background: #fff;
+width: 260px;
+box-shadow: 1px 1px 1px 1px rgba(81, 80, 80, 0.14);
+border: 1px solid #9D9D9D;
+padding: 3px;
+}
+.help:hover #leiras {
+display: block;
+}
+.menu {
+display: inline-block;
+float: right;
+margin-top: -50px;
+}
+.menu a {
+color: #4f5d73;
+text-decoration: none;
+padding: 24px 8px;
+display: inline-block;
+font-size: 16px;
+transition: 0.2s;
+}
+.menu a:hover {
+background: #4f5d73;
+color: #fff;
+ }
+</style>
+</head>
+<body>
+<div id="fejlec"><img src="icon.png" class="icon"><div class="cim">Video Remote</div>
+<div class="menu">
+<a href="http://intomedia.hu">IntoMedia</a>
+<a href="http://vmtech.into.hu/projekt/videoremote/">Home</a>
+<a href="https://chrome.google.com/webstore/detail/video-remote/ibpfndfnfoppkngodblpdnjgimoccekg">Chrome</a>
+<a href="https://addons.mozilla.org/hu/firefox/addon/video-remote/">Firefox</a>
+<a href="https://addons.opera.com/en/extensions/details/video-remote/?display=en">Opera</a>
+<a href="http://extension.maxthon.com/detail/index.php?view_id=2904">Maxthon</a>
+</div>
+</div>
+<div class="page">
+<input type="checkbox" name="checkbox" id="frame" value="1"><label for="frame" id="frame_szov">Vezérlés engedélyezése beágyazott videóknál.</label>
+
+<div id="status"></div>
+<button id="save">Save</button>
+</div>
+<script src="options.js"></script>
+</body>
+</html>
