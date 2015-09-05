@@ -3,11 +3,11 @@
 "name": "__MSG_appName__",
 "description": "__MSG_appDesc__",
 "default_locale": "en",
-  "version": "3.1.0",
+  "version": "3.2.3",
  "icons": { "128": "icon.png" },
 "content_scripts": [
     {
-      "matches": ["http://*/","http://*/*","https://www.youtube.com/*","https://vimeo.com/*"],
+      "matches": ["http://*/","http://*/*","http://*/*/","https://www.youtube.com/*","https://vimeo.com/*"],
       "all_frames": true,
       "js": ["background2.js"]
     }
