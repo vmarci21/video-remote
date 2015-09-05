@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="http://vmtech.into.hu/projekt/videoremote/" version="3.2.3">
+	<name>Video remote</name>
+	<description xml:lang="en">Remotely controlled playing of video, Use your cell phone as a remote control!</description>
+  <description xml:lang="hu">Vezéreld távolról a Video lejátszást, használd a mobilodat távirányítóként!</description>
+  <description xml:lang="de">Ferngesteuerte Wiedergabe von Video, Verwenden Sie Ihre Handy als Fernbedienung!</description>
+  <description xml:lang="ro">Manevraţi redarea videoclipurilor din depărtare, Folosiți telefonul mobil ca un control de la distanță!</description>
+  <description xml:lang="sr">Kontroliraj izdaleka tvoja omiljena videa!</description>
+	<author href="http://vmtech.into.hu/projekt/videoremote/" email="vmtech@into.hu">VmTech</author>
+  <icon src="icon_64.png" />
+  <icon src="icon.png" />
+  <access origin="*"/>
+</widget>
