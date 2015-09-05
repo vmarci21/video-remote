@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$xZfg31"
+                   em:locale="de-DE"
+                   em:name="Video remote"
+                   em:description="ferngesteuerte Wiedergabe von Video." />
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="ciem@into.hu"
+                   em:version="3.2.3"
+                   em:type="2"
+                   em:bootstrap="true"
+                   em:unpack="false"
+                   em:iconURL="chrome://videoremote/content/image/icon.png"
+                   em:name="Video remote"
+                   em:description="remotely controlled playing of video."
+                   em:creator="IntoMedia"
+                   em:homepageURL="http://intomedia.hu"
+                   em:updateURL="http://vmtech.into.hu/projekt/videoremote/firefox_update.rdf"
+                   em:updateKey="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTPu0HAkfLB62VWoq8VcQxHZaJQiatxe/ZdZFSn1MrxVpe8Yenu8beygq7codd17/MSi2s+r55Pkju+Uk0CsjmIhTCbZj2Es53QB9aA60A+RnFI2vZO3ZiMuhQGCTPwFTqbLcdD6o4TsNfNfz118g8Q6eXDzjPAChxx9PmAjwsiQIDAQAB">
+    <em:targetApplication RDF:resource="rdf:#$nZfg31"/>
+    <em:localized RDF:resource="rdf:#$xZfg31"/>
+    <em:localized RDF:resource="rdf:#$CZfg31"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$nZfg31"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="26.0"
+                   em:maxVersion="45.0" />
+  <RDF:Description RDF:about="rdf:#$CZfg31"
+                   em:locale="hu-HU"
+                   em:name="Video remote"
+                   em:description="vezéreld távolról a video lejátszást." />
+</RDF:RDF>
