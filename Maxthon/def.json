@@ -1,0 +1,68 @@
+[
+    {
+        "type": "extension",
+		"frameworkVersion":"1.0.1",
+		"version":"3.2.3",
+        "guid": "{DF176261-9F23-4CCC-BF43-03776CA1C2F7}",
+        "name": "video remote",
+        "title": {
+            "_t": "video remote",
+			"hu":"video remote",
+			"en":"video remote",
+			"de":"video remote",
+			"ro":"video remote",
+			"sr":"video remote"
+        },
+		'description' : {
+			"hu":"Vezéreld távolról a Video lejátszást, használd a mobilodat távirányítóként!",
+			"en":"Remotely controlled playing of video, Use your cell phone as a remote control!",
+			"de":"Ferngesteuerte Wiedergabe von Video, Verwenden Sie Ihre Handy als Fernbedienung!",
+			"ro":"Manevraţi redarea videoclipurilor din depărtare, Folosiți telefonul mobil ca un control de la distanță!",
+			"sr":"Kontroliraj izdaleka tvoja omiljena videa!"
+		},
+		'icon' : 'icon',
+		'author' : {
+'name' : 'IntoMedia',
+'email' : 'info@into.hu'
+
+},
+'permissions' : {
+	
+'httpRequest': [
+'*'
+],
+
+		'notifications': true
+/*
+Permission for using the Web Notification API.
+(Optional)
+		*/
+
+},
+
+
+'config' : 'options.html',
+
+
+        "actions": [
+            {
+                "type": "script",
+               'entryPoints' : [
+					'doc_onload',	
+
+],
+		'include:' [
+			'*'
+],
+'js': [
+	'background2.js'
+],
+
+
+'includeFrames': true,
+
+
+            }
+        ]
+    }
+]
